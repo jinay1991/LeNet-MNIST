@@ -111,7 +111,7 @@ def main(unused_argv):
                                                         num_epochs=None,
                                                         shuffle=True)
     mnist_classifier.train(input_fn=train_input_fn,
-                           steps=200,
+                           steps=2000,
                            hooks=[logging_hook])
 
     # Evaluate Model
