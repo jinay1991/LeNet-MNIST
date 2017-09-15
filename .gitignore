@@ -1,0 +1,7 @@
+.vs
+/__pycache__
+*.pyc
+/tmp
+/MNIST-data
+*.db
+/Debug
